@@ -21,7 +21,7 @@ class Ganglia < Formula
   end
 
   depends_on "pkg-config" => :build
-  depends_on :apr => :build
+  depends_on "apr-util" => :build
   depends_on "confuse"
   depends_on "pcre"
   depends_on "rrdtool"
